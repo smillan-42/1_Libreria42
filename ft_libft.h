@@ -2,6 +2,7 @@
 #define ft_libft.h
 
 // Declaracion de librerias
+#include <strings.h>
 #include <stddef.h>
 
 // Declaracion funiones
