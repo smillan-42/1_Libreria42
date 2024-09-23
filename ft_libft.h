@@ -4,6 +4,7 @@
 // Declaracion de librerias
 #include <strings.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 // Declaracion funiones
 int ft_isalpha(int c);
@@ -27,5 +28,7 @@ void *ft_memchr(const void *s, int c, size_t n);
 int ft_memcmp(const void *s1, const void *s2, size_t n);
 char *ft_strnstr(const char *big, const char *little, size_t len);
 int ft_atoi(const char *nptr);
+void    *calloc(size_t nelem, size_t elsize);
+char    *strdup(const char *s);
 
 #endif
