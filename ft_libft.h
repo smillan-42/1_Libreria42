@@ -1,10 +1,11 @@
-#ifndef ft_libft.h
-#define ft_libft.h
+#ifndef LIBFT_H
+#define LIBFT_H
 
 // Declaracion de librerias
 #include <strings.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 // Declaracion funiones
 int ft_isalpha(int c);
@@ -30,5 +31,6 @@ char *ft_strnstr(const char *big, const char *little, size_t len);
 int ft_atoi(const char *nptr);
 void    *calloc(size_t nelem, size_t elsize);
 char    *strdup(const char *s);
+char    *ft_substr(char const *s, unsigned int start,size_t len);
 
 #endif

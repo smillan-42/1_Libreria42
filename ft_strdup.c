@@ -6,7 +6,7 @@ char    *strdup(const char *s)
     char    *ptr;
 
     i = ft_strlen(s);
-    *ptr = (char *)malloc(i * sizeof(char));
+    ptr = (char *)malloc(i * sizeof(char));
     if (ptr == NULL)
         return (NULL);
     i = ft_strlcpy(ptr, s, i);

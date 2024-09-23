@@ -6,7 +6,7 @@ void    *calloc(size_t nelem, size_t elsize)
     void    *ptr;
 
     i = 0;
-    *ptr = (void *)malloc(nelem * elsize);
+    ptr = (void *)malloc(nelem * elsize);
     if (ptr == NULL)
         return (NULL);
     ft_bzero(ptr, nelem);
